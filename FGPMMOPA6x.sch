@@ -5456,7 +5456,7 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="C1" library="freetronics-master-v1" deviceset="CAP" device="0805" value="10µF">
-<attribute name="PACKAGE" value="0603"/>
+<attribute name="PACKAGE" value="0805"/>
 </part>
 <part name="G14" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="G15" library="freetronics-luke" deviceset="GND" device=""/>

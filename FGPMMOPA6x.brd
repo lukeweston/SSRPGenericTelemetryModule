@@ -595,7 +595,7 @@
 <attribute name="VALUE" x="23.8125" y="6.6675" size="0.762" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C1" library="freetronics-master-v1" package="0805" value="10µF" x="21.59" y="8.89" smashed="yes" rot="R90">
-<attribute name="PACKAGE" value="0603" x="21.59" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PACKAGE" value="0805" x="21.59" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.955" y="6.35" size="0.762" layer="25" ratio="15"/>
 <attribute name="VALUE" x="20.955" y="5.3975" size="0.762" layer="27" ratio="15"/>
 </element>
