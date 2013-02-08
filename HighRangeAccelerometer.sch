@@ -5075,10 +5075,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <part name="C2" library="freetronics-master-v1" deviceset="CAP" device="0603" value="100nF">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R1" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="10kΩ">
-<attribute name="PACKAGE" value="0603"/>
-</part>
-<part name="U$2" library="freetronics-luke" deviceset="+5V" device=""/>
 <part name="J2" library="jumper" deviceset="SJ" device="" value="Self-test"/>
 <part name="U$3" library="freetronics-luke" deviceset="+5V" device=""/>
 <part name="U$4" library="freetronics-luke" deviceset="+5V" device=""/>
@@ -5153,12 +5149,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <attribute name="VALUE" x="144.78" y="86.36" size="1.27" layer="96"/>
 <attribute name="PACKAGE" x="144.78" y="83.82" size="1.27" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="86.36" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="78.74" y="114.3" size="1.27" layer="95"/>
-<attribute name="VALUE" x="78.74" y="111.76" size="1.27" layer="96"/>
-<attribute name="PACKAGE" x="78.74" y="109.22" size="1.27" layer="96"/>
-</instance>
-<instance part="U$2" gate="G$1" x="86.36" y="121.92"/>
 <instance part="J2" gate="1" x="162.56" y="101.6" smashed="yes" rot="MR90">
 <attribute name="NAME" x="165.1" y="101.6" size="1.27" layer="95"/>
 <attribute name="VALUE" x="165.1" y="99.06" size="1.27" layer="96"/>
@@ -5200,11 +5190,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="104.14" x2="101.6001" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="91.44" x2="91.44" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="U$2" gate="G$1" pin="+5V"/>
-<wire x1="86.36" y1="119.38" x2="86.36" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="1" pin="2"/>
@@ -5313,9 +5298,6 @@ wire to board 2.54 mm (.1 inch) pitch header</description>
 <wire x1="86.36" y1="91.44" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="96.52" x2="101.6001" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="P" pin="!CS!/SHDN"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="106.68" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
-<junction x="86.36" y="96.52"/>
 </segment>
 </net>
 <net name="N$25" class="0">
